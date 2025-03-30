@@ -19,7 +19,7 @@
       <div
         class="bg-[url('/photos/h1_hero.png')] bg-cover h-[600px] w-full bg-center bg-no-repeat"
       >
-        <nav class="flex justify-between h-16 shadow-md px-8 items-center">
+        <nav class="flex justify-between h-28 shadow-md px-8 items-center">
           <div class="block items-center gap-3">
             <img
               class="align-top inline-block h-8 w-8"
@@ -32,30 +32,42 @@
               Courses
             </h1>
           </div>
-          <div class="hidden md:flex md:justify-between">
-            <ul class="flex gap-3.5">
+          <div class="hidden md:flex md:justify-between md:items-center">
+            <ul
+              class="flex gap-7 font-sans text-white text-[16px] font-bold items-center"
+            >
               <li><a href="a">Home</a></li>
               <li><a href="a">Courses</a></li>
               <li><a href="a">About</a></li>
               <li><a href="a">Blog</a></li>
               <li><a href="a">Contact</a></li>
               <li>
-                <a href="joinbtn"><button>Join</button></a>
+                <a href="joinbtn"
+                  ><button
+                    class="bg-[#FF9F67] px-9 py-3 rounded-md hover:w-full hover:bg-amber-50 hover:text-violet-600"
+                  >
+                    Join
+                  </button></a
+                >
               </li>
               <li>
-                <a href="loginbtn"><button>Login</button></a>
+                <a href="loginbtn"
+                  ><button
+                    class="px-9 py-3 rounded-md border hover:bg-[#FF9F67] hover:text-white"
+                  >
+                    Login
+                  </button></a
+                >
               </li>
             </ul>
           </div>
-          <div>
-            <div class="block md:hidden lg:hidden">
-              <a
-                ><img
-                  class="h-7 w-7"
-                  src="/photos/icons8-menu-48.png"
-                  alt="icons8-menu-48"
-              /></a>
-            </div>
+          <div class="block md:hidden lg:hidden">
+            <a
+              ><img
+                class="h-7 w-7"
+                src="/photos/icons8-menu-48.png"
+                alt="icons8-menu-48"
+            /></a>
           </div>
         </nav>
       </div>
