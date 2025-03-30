@@ -1,1 +1,6 @@
 @import "tailwindcss";
+.icon_heading {
+  font-family: Josefin Sans;
+  vertical-align: center;
+  font-weight: 400;
+}

@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Learn Html</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="/tailwind.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=.0" />
@@ -11,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -20,36 +19,41 @@
       <div
         class="bg-[url('/photos/h1_hero.png')] bg-cover h-[600px] w-full bg-center bg-no-repeat"
       >
-        <nav>
-          <div class="flex gap-3">
+        <nav class="flex justify-between h-16 shadow-md px-8 items-center">
+          <div class="block items-center gap-3">
             <img
-              class="h-8"
+              class="align-top inline-block h-8 w-8"
               src="/photos/icons8-literature-48.png"
               alt="logo"
             />
-            <h1 class="text-[24px] font-bold font-Mulish h-8 text-white">
+            <h1
+              class="icon_heading text-[27px] font-semibold text-white inline-block tracking-wide align-text-top"
+            >
               Courses
             </h1>
           </div>
-          <div class="float-right hidden">
-            <div>
-              <ul class="flex gap-3.5">
-                <li><a href="a">Home</a></li>
-                <li><a href="a">Courses</a></li>
-                <li><a href="a">About</a></li>
-                <li><a href="a">Blog</a></li>
-                <li><a href="a">Contact</a></li>
-              </ul>
-            </div>
-            <div>
-              <a href="joinbtn"><button>Join</button></a>
-              <a href="loginbtn"><button>Login</button></a>
-            </div>
+          <div class="hidden md:flex md:justify-between">
+            <ul class="flex gap-3.5">
+              <li><a href="a">Home</a></li>
+              <li><a href="a">Courses</a></li>
+              <li><a href="a">About</a></li>
+              <li><a href="a">Blog</a></li>
+              <li><a href="a">Contact</a></li>
+              <li>
+                <a href="joinbtn"><button>Join</button></a>
+              </li>
+              <li>
+                <a href="loginbtn"><button>Login</button></a>
+              </li>
+            </ul>
           </div>
           <div>
-            <div>
+            <div class="block md:hidden lg:hidden">
               <a
-                ><img src="/photos/icons8-menu-48.png" alt="icons8-menu-48"
+                ><img
+                  class="h-7 w-7"
+                  src="/photos/icons8-menu-48.png"
+                  alt="icons8-menu-48"
               /></a>
             </div>
           </div>
